@@ -16,10 +16,11 @@ namespace Week7Test_Laura_Gagliani
              * */
 
 
-            bool parse;
-            int matricola;
+            
             Console.WriteLine("Inserisci il numero di matricola dello studente cercato:");
             Console.WriteLine("(Matricole presenti nel db: 1 - 2 - 4 - 5 - 6)");
+            bool parse;
+            int matricola;
 
             do
             {
@@ -35,8 +36,7 @@ namespace Week7Test_Laura_Gagliani
 
                 if (s != null)
                 {
-                    string stampa = s.ToString();
-                    Console.WriteLine(stampa);
+                    Console.WriteLine(s.ToString());
                 }
             
         }

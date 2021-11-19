@@ -13,19 +13,10 @@ namespace Week7Test_Laura_Gagliani
         public int Matricola { get; set; }
 
 
-        public Studente()
-        {
-
-        }
-        public Studente(string nome, string cognome, int matricola)
-        {
-            Nome = nome;
-            Cognome = cognome;
-            Matricola = matricola;
-        }
+        
         public override string ToString()
         {
-           return $"Studente {Nome} {Cognome} - Matricola {Matricola}";
+           return $"Studente: {Nome} {Cognome} - Matricola: {Matricola}";
                          
             
         }
